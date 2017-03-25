@@ -1,6 +1,6 @@
 # Dracula for [Atom](https://atom.io)
 
-> A dark theme for [Atom](https://atom.io).
+> A dark theme for Glacier UI [Atom](https://atom.io).
 
 ![Screenshot](https://draculatheme.com/assets/img/screenshots/atom.png)
 
