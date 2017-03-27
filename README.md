@@ -1,24 +1,13 @@
-# Dracula for [Atom](https://atom.io)
+# Glacier Darkula Syntax Theme for [Atom](https://atom.io)
 
-> A dark theme for Glacier UI [Atom](https://atom.io).
+> A dark syntaxe theme, best used with [Glacier Dark UI](https://github.com/berlouz/glacier-dark-ui).
 
-![Screenshot](https://draculatheme.com/assets/img/screenshots/atom.png)
+![Screenshot]()
 
-## Install
+## Credits
+The original theme is maintained by [Jimmy Multani](https://github.com/JimmyMultani)  and a bunch of [awesome contributors](https://github.com/dracula/atom/graphs/contributors).
 
-All instructions can be found at [draculatheme.com/atom](https://draculatheme.com/atom).
-
-## Related
-* [UI theme](https://github.com/dracula/atom-ui)
-
-## Team
-
-This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/atom/graphs/contributors).
-
-[![Jimmy Multani](https://avatars3.githubusercontent.com/u/1281284?v=3&s=70)](https://github.com/JimmyMultani) |
---- |
-[Jimmy Multani](https://github.com/JimmyMultani) |
+Edited by Pitu :metal:
 
 ## License
-
 [MIT License](./LICENSE)
