@@ -298,12 +298,14 @@ atom-text-editor .gutter .line-number.git-line-added{
 atom-text-editor .highlight.find-result .region{
     background: @dark-gray;
     border: 1px solid @downy;
+    border-radius: 2px;
     z-index: -1000;
 }
 
 atom-text-editor .highlight.current-result .region{
     background: @dark-gray;
-    border: 1px solid @downy;
+    border: 1px dotted @downy;
+    border-radius: 2px;
     transition-duration: .1s;
     z-index: -1000;
 }
@@ -311,6 +313,7 @@ atom-text-editor .highlight.current-result .region{
 atom-text-editor .highlight.current-result ~ .highlight.selection .region{
     background: @dark-gray;
     border: 1px solid @downy;
+    border-radius: 2px;
     z-index: -1000;
 }
 
