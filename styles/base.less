@@ -25,12 +25,12 @@ atom-text-editor .indent-guide{
     box-shadow: inset 1px 0 darken(@gray, 13%);
 }
 
-atom-text-editor::shadow .line-number{
+atom-text-editor .line-number{
     color: #5EEBB8;
-    margin-left: -20px;
+    //margin-left: -20px;
 }
 
-atom-text-editor::shadow .cursor{
+atom-text-editor .cursor{
     border-left-width: 2px;
     border-color: #5eebb8;
     -webkit-transition: -webkit-transform, .06s;
@@ -303,7 +303,8 @@ atom-text-editor .highlight.find-result .region{
 }
 
 atom-text-editor .highlight.current-result .region{
-    border: 2px solid #5EEBB8;
+    background: lighten(@dark-gray, 3%);
+    border: 1px solid #5EEBB8;
     border-radius: 1px;
     transition-duration: .1s;
 }
