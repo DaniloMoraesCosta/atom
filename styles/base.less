@@ -315,14 +315,14 @@ atom-text-editor .highlight.current-result .region, .highlight.current-result ~ 
     border: 1px @downy;
     border-radius: 2px;
     transition-duration: .1s;
-    z-index: -1000;
+    //z-index: -1000;
 }
 
 atom-text-editor .bracket-matcher .region{
     background: @dark-gray;
     border: 1px solid @downy;
     border-radius: 2px;
-    z-index: 1000;
+    z-index: -100;
 }
 
 // Highlights #{} in ruby string interpolation and <?php ?> syntax tag
