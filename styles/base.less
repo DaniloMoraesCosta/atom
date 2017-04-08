@@ -318,10 +318,12 @@ atom-text-editor .highlight.current-result .region{
 }
 
 atom-text-editor .bracket-matcher .region{
-    border: 1px solid @downy;
-    border-radius: 2px;
-    z-index: -1000;
+    border-bottom: thick @downy;
+    //position: absolute;
 }
+
+.bracket-matcher .region {  background-color: orange; position: absolute; }
+
 
 // Highlights #{} in ruby string interpolation and <?php ?> syntax tag
 .syntax--punctuation.syntax--section.syntax--embedded.syntax--begin,
