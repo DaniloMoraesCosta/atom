@@ -296,10 +296,11 @@ atom-text-editor .gutter .line-number.git-line-added{
 }
 
 atom-text-editor .highlight.current-result .region{
-    background: @dark-gray
+    background: @dark-gray;
     border: 1px solid @downy;
-    //border-radius: 5px;
+    border-radius: 5px;
     transition-duration: .1s;
+    z-index: -1000;
 }
 
 atom-text-editor .highlight.current-result ~ .highlight.selection .region{
