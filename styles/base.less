@@ -304,7 +304,7 @@ atom-text-editor .highlight.find-result .region{
 
 atom-text-editor .highlight.current-result .region{
     background: @dark-gray;
-    border: 1px dotted @downy;
+    border: 1px @downy;
     border-radius: 2px;
     transition-duration: .1s;
     z-index: -1000;
@@ -318,7 +318,9 @@ atom-text-editor .highlight.current-result ~ .highlight.selection .region{
 }
 
 atom-text-editor .bracket-matcher .region{
-    border-bottom: 1px dotted @green;
+    background: @dark-gray;
+    border: 1px solid @downy;
+    border-radius: 2px;
     z-index: 100;
 }
 
