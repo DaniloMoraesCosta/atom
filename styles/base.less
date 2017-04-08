@@ -26,13 +26,13 @@ atom-text-editor .indent-guide{
 }
 
 atom-text-editor .line-number{
-    color: #5EEBB8;
+    color: @downy;
     //margin-left: -20px;
 }
 
 atom-text-editor .cursor{
     border-left-width: 2px;
-    border-color: #5EEBB8;
+    border-color: @downy;
     -webkit-transition: -webkit-transform, .06s;
 }
 
@@ -304,7 +304,7 @@ atom-text-editor .highlight.find-result .region{
 
 atom-text-editor .highlight.current-result .region{
     background: lighten(@dark-gray, 20%);
-    border: 1px solid #5EEBB8;
+    border: 1px solid @downy;
     border-radius: 1px;
     transition-duration: .1s;
 }
