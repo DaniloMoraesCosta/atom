@@ -13,9 +13,11 @@ atom-text-editor.is-focused .selection .region{
     background-color: @dark-gray;
 }
 
+/*
 atom-text-editor.is-focused .line.cursor-line{
     background-color: @dark-gray;
 }
+*/
 
 atom-text-editor.editor .gutter .line-number.foldable .icon-right{
     visibility: visible;
@@ -38,6 +40,10 @@ atom-text-editor .cursor{
     border-left-width: 2px;
     border-color: @downy;
     -webkit-transition: -webkit-transform, .06s;
+}
+
+atom-text-editor.editor .folded{
+    border-bottom: 1px solid #5EEBB8;
 }
 
 atom-text-editor .gutter .line-number.git-line-modified,
@@ -300,7 +306,7 @@ atom-text-editor .gutter .line-number.git-line-added{
 }
 
 atom-text-editor .highlight.find-result .region{
-    // background: @dark-gray;
+    //background: @dark-gray;
     border: 1px solid @downy;
     border-radius: 2px;
     z-index: -1000;
@@ -322,17 +328,19 @@ atom-text-editor .highlight.current-result ~ .highlight.selection .region{
 }
 
 atom-text-editor .bracket-matcher .region{
-    border: 1px solid @downy;
+    border: solid cyan;
+    border-width: 1px;
     border-radius: 2px;
-    z-index: -100;
+    background: @dark-gray;
+    z-index: -1000;
 }
 
-atom-text-editor  .highlights .highlight-selected .region {
+atom-text-edito .highlights .highlight-selected .region {
     border-color: #5EEBB8;
     border-radius: 2px;
 }
 
-// Highlights #{} in ruby string interpolation and <?php ?> syntax tag
+//Highlights #{} in ruby string interpolation and <?php ?> syntax tag
 .syntax--punctuation.syntax--section.syntax--embedded.syntax--begin,
 .syntax--punctuation.syntax--section.syntax--embedded.syntax--end{
     color: @orange;
